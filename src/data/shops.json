@@ -1452,5 +1452,104 @@
             "0": "おうち de キャシェット",
             "1": "店内通常メニュー及び、日替わりメニューからお選び頂けます"
         }
+    },
+    "atthestore": {
+        "name": "at the store oneFRIT",
+        "short_name": "oneFRIT",
+        "key": "atthestore",
+        "description": "",
+        "zipcode": "431-1209",
+        "prefecture": "静岡県",
+        "city": "浜松市西区",
+        "address": "舘山寺町267-1",
+        "other_address": "",
+        "tel": "053-448-5009",
+        "email": "onefrit0001@gmail.com",
+        "reception_hours": "11:00～17:30",
+        "delivery_hours": "11:00～18:00",
+        "close": "火曜日、第2第4水曜日",
+        "payments":"現金、PayPay",
+        "url": "http://onefrit.com/atthestore",
+        "map": "pb=!1m18!1m12!1m3!1d3277.651339043357!2d137.62440641523392!3d34.764374780418265!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601b27a807177635%3A0x36fa22ae07d383a9!2sat%20THE%20STORE!5e0!3m2!1sja!2sjp!4v1586867286868!5m2!1sja!2sjp",
+        "items": {
+            "poteto": {
+                "name": "フライドポテト",
+                "price": 500,
+                "description": "レギュラー(500円)、ラージ(750円)、BOX(800円)",
+                "image_path": "poteto.jpg"
+            },
+            "tacos": {
+                "name": "タコス",
+                "price": 400,
+                "description": "",
+                "image_path": "tacos.jpg"
+            },
+            "bananasmoothie": {
+                "name": "バナナスムージー",
+                "price": 400,
+                "description": "",
+                "image_path": "bananasmoothie.jpg"
+            },
+            "potetopotage": {
+                "name": "ポテトポタージュ(ヴィシソワーズ)",
+                "price": 400,
+                "description": "",
+                "image_path": "potetopotage.jpg"
+            }
+        }
+    },
+    "passeretti": {
+        "name": "カフェ＆ダイニング パセレッティ",
+        "short_name": "passeretti",
+        "key": "passeretti",
+        "description": "",
+        "zipcode": "430-0939",
+        "prefecture": "静岡県",
+        "city": "浜松市中区",
+        "address": "連尺町307",
+        "other_address": "",
+        "tel": "053-452-0899",
+        "email": "fancykantoku@gmail.com",
+        "reception_hours": "11:30〜24:00",
+        "delivery_hours": "12:00〜24:00",
+        "close": "年中無休",
+        "payments":"現金、クレジットカード等",
+        "url": "https://passeretti.business.site/?utm_source=gmb&utm_medium=referral",
+        "map": "pb=!1m14!1m8!1m3!1d3279.9142463208764!2d137.7270726!3d34.7073428!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601ade6319cb38cb%3A0x59cae712083120d0!2zY2FmZSZkaW5pbmcgcGFzc2VyZXR0ae-8iOODkeOCu-ODrOODg-ODhuOCo--8iQ!5e0!3m2!1sja!2sjp!4v1586868788016!5m2!1sja!2sjp",
+        "items": {
+            "blt": {
+                "name": "BLTサンド(スープ付)",
+                "price": 972,
+                "description": "",
+                "image_path": "blt.jpg"
+            }
+        }
+    },
+    "chankage": {
+        "name": "ちゃん影",
+        "short_name": "ちゃん影",
+        "key": "chankage",
+        "description": "",
+        "zipcode": "430-0944",
+        "prefecture": "静岡県",
+        "city": "浜松市中区",
+        "address": "田町329-8",
+        "other_address": "マルマンビル1F",
+        "tel": "053-456-1518",
+        "email": "chankage.hamamatsu@gmail.com",
+        "reception_hours": "12:00～20:00",
+        "delivery_hours": "11:00～20:00",
+        "close": "日曜日",
+        "payments":"現金",
+        "url": "https://tyankage.owst.jp/",
+        "map": "pb=!1m18!1m12!1m3!1d3279.9231206032982!2d137.7300173152324!3d34.70711898043289!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601ade7ae5cf5091%3A0x34464d1c78852494!2z44Gh44KD44KT5b2x!5e0!3m2!1sja!2sjp!4v1586869731656!5m2!1sja!2sjp",
+        "items": {
+            "bento": {
+                "name": "煮穴子弁当",
+                "price": 1000,
+                "description": "",
+                "image_path": "bento.jpg"
+            }
+        }
     }
 }
