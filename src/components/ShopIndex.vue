@@ -25,18 +25,33 @@
 </template>
 <script>
 import shops from '../data/shops.json'
+import url from '../data/url.json'
+import axios from 'axios'
+
 export default {
-    name: 'ShopIndex',
-    data () {
-        return {
-            shops: shops
-        }
-    },
-    methods: {
-      setShop: function(key) {
-        localStorage.shop = key
+  name: 'ShopIndex',
+  data () {
+      return {
+          shops: shops,
+          apiShops: null 
       }
+  },
+  methods: {
+    setShop: function(key) {
+      localStorage.shop = key
     }
+  },
+  mounted() {
+    axios.get(url.data, {
+      params: {
+
+      }
+    }).then(result => {
+      this.apiShops = result.data
+    }).catch(error => {
+      this.apiShops = error
+    })
+  }
 }
 </script>
 <style>
