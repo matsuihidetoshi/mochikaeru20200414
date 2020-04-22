@@ -102,7 +102,11 @@
       importantLinks: [
         {
           text: '新型コロナウイルス感染症拡大防止サイト',
-          href: 'https://stopcovid19-hamamatsu.netlify.com/',
+          href: 'https://stopcovid19.code4hamamatsu.org/',
+        },
+        {
+          text: '浜松市の休業要請に基づく協力金の支給について',
+          href: 'https://www.city.hamamatsu.shizuoka.jp/sangyoshinko/shougyo2.html',
         },
         {
           text: '防止サイトGitHub',
