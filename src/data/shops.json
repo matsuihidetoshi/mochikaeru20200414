@@ -11,8 +11,8 @@
         "other_address": "大石ビル1階",
         "tel": "050-3461-4717",
         "email": "sol.hamamatsu123@gmail.com",
-        "reception_hours": "10:30〜21:00",
-        "delivery_hours": "11:30〜22:00",
+        "reception_hours": "11:00〜20:00",
+        "delivery_hours": "11:30〜21:00",
         "close": "火曜日",
         "payments":"現金、クレジットカード",
         "url": "http://www.sol-hamamatsu.com/sp/",
@@ -57,22 +57,17 @@
             "quattroformaggio": {
                 "name": "ピッツァフリッタ -包み揚げピザ- クワトロフォルマッジョ",
                 "price": 1000,
-                "description": "食べ歩きできるピザ！",
+                "description": "持ち歩きしやすいピザ！",
                 "image_path": "quattroformaggio.jpg"
             },
             "spicypork": {
                 "name": "ピッツァフリッタ -包み揚げピザ- スパイシーポーク",
                 "price": 1000,
-                "description": "食べ歩きできるピザ！",
+                "description": "持ち歩きしやすいピザ！",
                 "image_path": "spicypork.jpg"
             }
         },
         "side_items": {
-            "cro": {
-                "name": "ご飯大盛り",
-                "price": 100,
-                "description": ""
-            },
             "croquette": {
                 "name": "自家製コロッケ（2個）",
                 "price": 500,
