@@ -18,17 +18,17 @@
         "url": "http://www.sol-hamamatsu.com/sp/",
         "map": "pb=!1m18!1m12!1m3!1d3279.9105355163965!2d137.7278373152658!3d34.70743639036499!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601ade7b4c343383%3A0xfe7a41e992dbf0bf!2z44K544OR44OL44OD44K344Ol44Kk44K_44Oq44Ki44Oz6YWS5aC0IFNPTO-8iOOCveODq--8iQ!5e0!3m2!1sja!2sjp!4v1586322803985!5m2!1sja!2sjp",
         "items": {
-            "roastbeefbowl": {
-                "name": "自家製ローストビーフ丼",
-                "price": 1200,
-                "description": "牛サーロインを使った贅沢な一品！",
-                "image_path": "roastbeefbowl.jpg"
+            "roastbeefpack": {
+                "name": "自家製サーロインローストビーフ弁当",
+                "price": 1300,
+                "description": "牛サーロインを使った贅沢なお弁当！",
+                "image_path": "roastbeefpack.jpg"
             },
-            "friedcheckenbowl": {
-                "name": "洋風からあげ丼",
-                "price": 900,
-                "description": "自家製唐揚げと特製マヨソースが絶妙にマッチ！",
-                "image_path": "friedcheckenbowl.jpg"
+            "friedcheckenpack": {
+                "name": "鶏の唐揚げ＆コロッケ弁当",
+                "price": 100,
+                "description": "唐揚げとコロッケのボリューム満点弁当！",
+                "image_path": "friedcheckencroquettepack.jpg"
             },
             "omurice": {
                 "name": "デミグラスソースのオムライス",
@@ -36,72 +36,62 @@
                 "description": "普段お店で食べられない裏メニュー！",
                 "image_path": "omurice.jpg"
             },
-            "meatsource": {
-                "name": "自家製ミートソース",
-                "price": 950,
-                "description": "温玉のせビスマルク風ピザ",
-                "image_path": "meatsource.jpg"
+            "hashedporkpack": {
+                "name": "ハッシュドポーク弁当",
+                "price": 1000,
+                "description": "ご飯との相性抜群！",
+                "image_path": "hashedporkpack.jpg"
             },
-            "salmonpotatogenovese": {
-                "name": "サーモンとじゃがいものジェノベーゼ",
-                "price": 1050,
-                "description": "自家製バジルソースピザ",
-                "image_path": "salmonpotatogenovese.jpg"
+            "coldspaghetti": {
+                "name": "フレッシュトマトの冷製パスタ",
+                "price": 1000,
+                "description": "フレッシュトマトソースとカッペリーニの絶妙なハーモニー！",
+                "image_path": "coldspaghetti.jpg"
             },
-            "greensalad": {
-                "name": "グリーンサラダ",
-                "price": 200,
-                "description": "",
-                "image_path": "greensalad.jpg"
+            "cheezecheckenpack": {
+                "name": "チーズチキン弁当",
+                "price": 1000,
+                "description": "こんがりチーズ、チキンとトマトソースの共演！",
+                "image_path": "cheezecheckenpack.jpg"
             },
-            "takograpefruitsmarine": {
-                "name": "タコとグレープフルーツのマリネ",
-                "price": 500,
-                "description": "",
-                "image_path": "takograpefruitsmarine.jpg"
+            "quattroformaggio": {
+                "name": "ピッツァフリッタ -包み揚げピザ- クワトロフォルマッジョ",
+                "price": 1000,
+                "description": "食べ歩きできるピザ！",
+                "image_path": "quattroformaggio.jpg"
             },
-            "shrimpbroccolibazilmarine": {
-                "name": "海老とブロッコリーのバジルマリネ",
-                "price": 500,
-                "description": "",
-                "image_path": "shrimpbroccolibazilmarine.jpg"
+            "spicypork": {
+                "name": "ピッツァフリッタ -包み揚げピザ- スパイシーポーク",
+                "price": 1000,
+                "description": "食べ歩きできるピザ！",
+                "image_path": "spicypork.jpg"
             }
         },
         "side_items": {
-            "bigrice": {
+            "cro": {
                 "name": "ご飯大盛り",
                 "price": 100,
                 "description": ""
             },
-            "potatosalad": {
-                "name": "ポテトサラダ",
-                "price": 200,
+            "croquette": {
+                "name": "自家製コロッケ（2個）",
+                "price": 500,
                 "description": ""
             },
-            "pickles": {
-                "name": "ピクルス",
-                "price": 200,
+            "friedpotato": {
+                "name": "フライドポテト",
+                "price": 500,
                 "description": ""
             },
-            "tomatomarine": {
-                "name": "トマトマリネ",
-                "price": 200,
+            "friedchicken": {
+                "name": "鶏の唐揚げ",
+                "price": 500,
                 "description": ""
             },
-            "margherita": {
-                "name": "マルゲリータ",
-                "price": 950,
-                "description": "トマト、モッツァレラ、バジルのピザ"
-            },
-            "quatroformaggio": {
-                "name": "クワトロフォルマッジョ",
-                "price": 1050,
-                "description": "4種類のチーズを使ったピザ"
-            },
-            "cicinielli": {
-                "name": "チチニエリ",
-                "price": 1050,
-                "description": "しらすのピザ"
+            "hamsalami": {
+                "name": "生ハムとサラミの盛り合わせ",
+                "price": 500,
+                "description": ""
             }
         }
     },
