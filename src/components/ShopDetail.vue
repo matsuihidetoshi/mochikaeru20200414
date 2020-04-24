@@ -37,7 +37,7 @@
                         v-bind:key="index"
                         cols="12"
                         >
-                            <v-card class="pa-5">
+                            <v-card class="pa-5 notice">
                                 {{ notice }}
                             </v-card>
                         </v-col>
@@ -114,5 +114,10 @@ export default {
 }
 .address {
     word-break: keep-all;
+}
+.notice {
+    text-align: left;
+    white-space:pre-wrap;
+    word-wrap:break-word;
 }
 </style>
