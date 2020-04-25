@@ -18,7 +18,7 @@
         "url": "http://www.sol-hamamatsu.com/sp/",
         "map": "pb=!1m18!1m12!1m3!1d3279.9105355163965!2d137.7278373152658!3d34.70743639036499!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601ade7b4c343383%3A0xfe7a41e992dbf0bf!2z44K544OR44OL44OD44K344Ol44Kk44K_44Oq44Ki44Oz6YWS5aC0IFNPTO-8iOOCveODq--8iQ!5e0!3m2!1sja!2sjp!4v1586322803985!5m2!1sja!2sjp",
         "notices": {
-            "0": "SOLの料理をなんとデリバリー出来ちゃう！！\n●宅配料：一律¥500\n●宅配範囲：店舗から4km圏内　※他地域はスタッフにご相談ください\n●宅配可能金額：¥2000(宅配料込み)\n●会計方法：現金会計のみ"
+            "0": "SOLの料理をなんとデリバリー出来ちゃう！！\n●宅配料：一律¥500\n●宅配範囲：店舗から4km圏内　※他地域はスタッフにご相談ください\n●宅配可能金額：¥2,000-以上(宅配料込み)\n●会計方法：現金会計のみ"
         },
         "items": {
             "roastbeefpack": {
@@ -29,7 +29,7 @@
             },
             "friedcheckenpack": {
                 "name": "鶏の唐揚げ＆コロッケ弁当",
-                "price": 100,
+                "price": 1000,
                 "description": "唐揚げとコロッケのボリューム満点弁当！",
                 "image_path": "friedcheckencroquettepack.jpg"
             },
@@ -59,13 +59,13 @@
             },
             "quattroformaggio": {
                 "name": "ピッツァフリッタ -包み揚げピザ- クワトロフォルマッジョ",
-                "price": 1000,
+                "price": 600,
                 "description": "持ち歩きしやすいピザ！",
                 "image_path": "quattroformaggio.jpg"
             },
             "spicypork": {
                 "name": "ピッツァフリッタ -包み揚げピザ- スパイシーポーク",
-                "price": 1000,
+                "price": 600,
                 "description": "持ち歩きしやすいピザ！",
                 "image_path": "spicypork.jpg"
             }
@@ -1386,7 +1386,7 @@
         }
     },
     "atumi": {
-        "name": "うなぎ料理 あつみ",
+        "name": "うなぎ料理 あつみ",
         "short_name": "あつみ",
         "key": "atumi",
         "description": "",
@@ -2235,8 +2235,8 @@
         }
     },
     "mabuchi": {
-        "name": "炭火バルMabuchi 浜松店",
-        "short_name": "炭火バルMabuchi",
+        "name": "炭火バルMabuchi 浜松店",
+        "short_name": "炭火バルMabuchi",
         "key": "mabuchi",
         "description": "",
         "zipcode": "430-0932",
