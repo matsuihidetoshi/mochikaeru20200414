@@ -1207,8 +1207,8 @@
         "other_address": "モール街かき美ビル2F",
         "tel": "053-452-5656",
         "email": "dajingang8@gmail.com",
-        "reception_hours": "15:00～22:00 オードブルの注文は前日まで",
-        "delivery_hours": "17:30～23:00",
+        "reception_hours": "10:00～19:00 オードブルの注文は前日まで",
+        "delivery_hours": "11:00～20:00",
         "close": "テイクアウトは定休日なし",
         "payments":"現金、PayPay",
         "url": "https://sign.owst.jp/",
@@ -1598,29 +1598,29 @@
         "url": "http://kokoroiki.jp/",
         "map": "pb=!1m18!1m12!1m3!1d3277.4042427584686!2d137.72039431457708!3d34.7705973869804!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601b2080f7a813bd%3A0x38b8d34881f76ae5!2z6IazIOOBk-OBk-OCjeeyiw!5e0!3m2!1sja!2sjp!4v1587728285484!5m2!1sja!2sjp",
         "items": {
-            "buribento": {
-                "name": "四季の彩”鰤(ぶり)のお弁当”",
-                "price": 3000,
-                "description": "",
-                "image_path": ""
-            },
-            "sakebento": {
-                "name": "季節の旬菜”鮭(さけ)のお弁当”",
+            "syunsaibento": {
+                "name": "四季の旬彩弁当",
                 "price": 2500,
                 "description": "",
-                "image_path": ""
+                "image_path": "syunsaibento.jpg"
             },
-            "bento": {
-                "name": "お子様弁当",
+            "kizunabento": {
+                "name": "きずな弁当",
                 "price": 1500,
                 "description": "",
-                "image_path": ""
+                "image_path": "kizunabento.jpg"
+            },
+            "okosamabento": {
+                "name": "お子様応援弁当",
+                "price": 1500,
+                "description": "",
+                "image_path": "okosamabento.jpg"
             },
             "yakitamago": {
-                "name": "厚焼きたまご(1本)",
+                "name": "厚焼きたまご",
                 "price": 1000,
                 "description": "",
-                "image_path": ""
+                "image_path": "yakitamago.jpg"
             }
         }
     },
@@ -1764,56 +1764,16 @@
         "payments":"現金",
         "url": "https://sushi-koh.owst.jp/",
         "map": "pb=!1m18!1m12!1m3!1d3280.0331947102486!2d137.7275675152324!3d34.70434268043358!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601ade7bf31de14f%3A0x9fe51594af87bc5c!2z5rWc5p2-IOmuqEtPSOW6tSAtaW9yaS0g5a-_5Y-45bqX!5e0!3m2!1sja!2sjp!4v1587732623339!5m2!1sja!2sjp",
-        "items": {
-            "sushiori": {
-                "name": "寿司折1人前",
-                "price": 2500,
-                "description": "並(2500円) 上(3000円) 特上(4000円)",
-                "image_path": "sushiori.jpg"
-            },
-            "sushiorifutomaki": {
-                "name": "寿司折太巻き8貫",
-                "price": 2000,
-                "description": "ねぎとろ、かんぴょう、車海老、赤身、サーモン、玉子焼",
-                "image_path": "sushiorifutomaki.jpg"
-            },
-            "hotate": {
-                "name": "ホタテバター焼き",
-                "price": 1500,
-                "description": "",
-                "image_path": "hotate.jpg"
-            },
-            "burikama": {
-                "name": "ぶりカマ塩焼き",
-                "price": 1000,
-                "description": "",
-                "image_path": "burikama.jpg"
-            },
-            "kanicreamcroquette": {
-                "name": "カニクリームコロッケ",
-                "price": 900,
-                "description": "",
-                "image_path": "kanicreamcroquette.jpg"
-            },
-            "toufu": {
-                "name": "あげだし豆腐",
-                "price": 700,
-                "description": "",
-                "image_path": "toufu.jpg"
-            }
-        },
         "side_items": {
-            "temakisushi": {
-                "name": "手巻き寿司set2人前",
-                "price": 8000,
-                "description": "赤身、中とろ、サーモン、車海老、煮穴子、生うに、いくら、玉子焼き、かんぴょう、ほっき貝サラダ、胡瓜、たくあん、、、全12種類のネタをご用意‼︎",
-                "image_path": ""
+            "baratirasi": {
+                "name": "ばらちらし",
+                "price": 1500,
+                "description": "小(1500円)、中(2000円)、大(2500円)"
             },
-            "tirasisushi": {
-                "name": "特製バラちらし寿司1人前",
-                "price": 4000,
-                "description": "",
-                "image_path": ""
+            "negitoro": {
+                "name": "ねぎとろ丼",
+                "price": 1500,
+                "description": "中(1500円)、大(2000円)"
             }
         }
     },
@@ -2298,6 +2258,26 @@
         "map": "pb=!1m18!1m12!1m3!1d3279.9294129121045!2d137.72771651523234!3d34.706960280432845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601ade7b453b6067%3A0x6fdc626c91f20e18!2z54Kt54Gr44OQ44OrTWFidWNoaSDmtZzmnb7lupc!5e0!3m2!1sja!2sjp!4v1587742150045!5m2!1sja!2sjp",
         "notices": {
             "0": "お問い合わせください"
+        },
+        "items": {
+            "familyplate": {
+                "name": "ファミリーカジュアルプレート",
+                "price": 3500,
+                "description": "",
+                "image_path": "familyplate.jpg"
+            },
+            "familyparty": {
+             "name": "ファミリーパーティープレート",
+             "price": 5000,
+             "description": "",
+             "image_path": "familyparty.jpg"
+            },
+            "familygorgeous": {
+                "name": "ファミリーゴージャス",
+                "price": 9000,
+                "description": "",
+                "image_path": "familygorgeous.jpg"
+            }
         }
     },
     "hikumano": {
@@ -2881,50 +2861,367 @@
             }
         }
     },
-    "tubohatiwagou": {
-        "name": "つぼ八 浜松和合店",
-        "short_name": "つぼ八 和合店",
-        "key": "tubohatiwagou",
+    "kanazawa": {
+        "name": "和食と釜めし かなざわ",
+        "short_name": "かなざわ",
+        "key": "kanazawa",
         "description": "",
-        "zipcode": "433-8125",
+        "zipcode": "431-0102",
         "prefecture": "静岡県",
-        "city": "浜松市中区",
-        "address": "和合町220-324",
+        "city": "浜松市西区",
+        "address": "雄踏町宇布見4061-5",
         "other_address": "",
-        "tel": "053-476-2277",
-        "email": "sawaguchi@obatakei.co.jp",
-        "reception_hours": "14:00～22:00",
-        "delivery_hours": "16:00～23:00",
-        "close": "なし",
-        "payments":"現金、クレジットカード、PayPay",
-        "url": "https://www.tsubohachi.co.jp/",
-        "map": "pb=!1m18!1m12!1m3!1d3278.65701054766!2d137.70661631523313!3d34.73903898042473!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601adf16a537cb85%3A0xa3ce5a4caca3c8aa!2z44Gk44G85YWrIOWSjOWQiOW6lw!5e0!3m2!1sja!2sjp!4v1588078413792!5m2!1sja!2sjp",
-        "notices": {
-            "0": "メニュー全品30％OFF",
-            "1": "お問い合わせください！"
+        "tel": "053-596-3035",
+        "email": "bowie08300423@gmail.com",
+        "reception_hours": "7:30～18:00",
+        "delivery_hours": "11:00～20:00",
+        "close": "火曜夜、水曜日",
+        "payments":"現金",
+        "url": "kamamesi.zashiki.com",
+        "map": "pb=!1m18!1m12!1m3!1d3280.3007731487755!2d137.64371731523212!3d34.69759298043526!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601ad9007117c747%3A0xd0afc4a59ce6cd90!2z5ZKM6aOf44Go6Yec6aOvIOOBi-OBquOBluOCjw!5e0!3m2!1sja!2sjp!4v1589107700891!5m2!1sja!2sjp",
+        "items": {
+            "kamamesibento": {
+                "name": "海鮮釜めし弁当",
+                "price": 972,
+                "description": "",
+                "image_path": "kamamesibento.jpg"
+            },
+            "sute-kiso-subento": {
+                "name": "黒毛牛ステーキソース弁当",
+                "price": 1944,
+                "description": "",
+                "image_path": "sute-kiso-subento.jpg"
+            },
+            "kabayakibento": { 
+                "name": "うなぎかば焼き弁当",
+                "price": 2376,
+                "description": "",
+                "image_path": "kabayakibento.jpg"
+            },
+            "odoble": {
+                "name": "オードブル",
+                "price": 5400,
+                "description": "",
+                "image_path": "odoble.jpg"
+            }
         }
     },
-    "tubohatiharasima": {
-        "name": "つぼ八 原島店",
-        "short_name": "つぼ八 原島店",
-        "key": "tubohatiharasima",
+    "hackberry": {
+        "name": "GardenCafe HACKBERRY",
+        "short_name": "HACKBERRY",
+        "key": "hackberry",
         "description": "",
-        "zipcode": "435-0047",
+        "zipcode": "431-2102",
         "prefecture": "静岡県",
-        "city": "浜松市東区",
-        "address": "原島町284-1",
+        "city": "浜松市北区",
+        "address": "都田町8497-2",
         "other_address": "",
-        "tel": "053-469-2288",
-        "email": "tokyosyoten.obk@gmail.com",
-        "reception_hours": "14:00～22:00",
-        "delivery_hours": "16:00～23:00",
-        "close": "なし",
-        "payments":"現金、クレジットカード、PayPay",
-        "url": "https://www.tsubohachi.co.jp/",
-        "map": "pb=!1m18!1m12!1m3!1d3279.0236762971567!2d137.76866691523298!3d34.72979758042704!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601ae0a3814af995%3A0x3783ee17b8488bb0!2z44Gk44G85YWrIOWOn-WztuW6lw!5e0!3m2!1sja!2sjp!4v1588078297142!5m2!1sja!2sjp",
+        "tel": "053-428-7003",
+        "email": "hackberry0505@gmail.com",
+        "reception_hours": "10:00～14:30",
+        "delivery_hours": "11:00～15:00",
+        "close": "月曜日、日曜日",
+        "payments":"現金、Paypay、LINEpay",
+        "url": "https://cafe-hackberry.com/",
+        "map": "pb=!1m18!1m12!1m3!1d3275.654457289334!2d137.73116001523522!3d34.814634280405436!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601b21ae41eee6c5%3A0x9e5e2ef500cca9d7!2z44Ks44O844OH44Oz44Kr44OV44KnIOODj-ODg-OCr-ODmeODquODvA!5e0!3m2!1sja!2sjp!4v1589108595705!5m2!1sja!2sjp",
+        "items": {
+            "itigopafe": {
+                "name": "いちごパフェ",
+                "price": 900,
+                "description": "",
+                "image_path": "itigopafe.jpg"
+            },
+            "lunch": {
+                "name": "お子さまランチ",
+                "price": 900,
+                "description": "",
+                "image_path": "lunch.jpg"
+            }
+        },
+        "side_items": {
+            "ebicurry": {
+                "name": "ほうれん草と海老のカレーサラダ付",
+                "price": 900,
+                "description": ""
+            },
+            "creamcurry": {
+                "name": "きのこのクリームカレーサラダ付",
+                "price": 900,
+                "description": ""
+            },
+            "chickensando": {
+                "name": "柑橘ソースのチキンタツタサンドサラダ付",
+                "price": 900,
+                "description": ""
+            }
+        }
+    },
+    "banshou": {
+        "name": "浜名湖の味 和食処 万松",
+        "short_name": "万松",
+        "key": "banshou",
+        "description": "",
+        "zipcode": "432-8069",
+        "prefecture": "静岡県",
+        "city": "浜松市西区",
+        "address": "志都呂2-20-16",
+        "other_address": "",
+        "tel": "053-448-9626",
+        "email": "sadakun0513@gmail.com",
+        "reception_hours": "（昼）11：00～13：30（夜）16：30～18：30",
+        "delivery_hours": "（昼）11：00～14：00（夜）16：30～19：00",
+        "close": "毎週火曜日と第１週と第３週は火・水と連休になります",
+        "payments":"現金のみ",
+        "url": "",
+        "map": "pb=!1m18!1m12!1m3!1d3280.2150778403975!2d137.64602191523215!3d34.69975478043464!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601ad901ce726109%3A0x8f2534a1c9ddc9fa!2z5ZKM6aOf5YemIOS4h-advg!5e0!3m2!1sja!2sjp!4v1589111401382!5m2!1sja!2sjp",
         "notices": {
-            "0": "メニュー全品30％OFF",
-            "1": "お問い合わせください！"
+            "0": "価格は税込です。"
+        },
+        "items": {
+            "banshoubento": {
+                "name": "万松弁当（天ぷら）",
+                "price": 1080,
+                "description": "",
+                "image_path": "banshoubento.jpg"
+            },
+            "mixbento": {
+                "name": "ミックスフライ弁当",
+                "price": 1080,
+                "description": "",
+                "image_path": "mixbento.jpg"
+            },
+            "yakinikubento": {
+                "name": "焼肉弁当",
+                "price": 1080,
+                "description": "",
+                "image_path": "yakinikubento.jpg"
+            },
+            "sabanomisonibento": {
+                "name": "さばのみそ煮弁当",
+                "price": 1080,
+                "description": "",
+                "image_path": "sabanomisonibento.jpg"
+            },
+            "unagibento": {
+                "name": "うなぎ弁当",
+                "price": 2000,
+                "description": "",
+                "image_path": "unagibento.jpg"
+            }
+        }
+    },
+    "pancafe": {
+        "name": "パンカフェ珈琲香爐",
+        "short_name": "珈琲香爐",
+        "key": "pancafe",
+        "description": "",
+        "zipcode": "432-8068",
+        "prefecture": "静岡県",
+        "city": "浜松市西区",
+        "address": "大平台2丁目16-10",
+        "other_address": "",
+        "tel": "053-485-7722",
+        "email": "",
+        "reception_hours": "前日 11:00～17:00",
+        "delivery_hours": "11:00～17:00",
+        "close": "なし",
+        "payments":"現金、PayPay",
+        "url": "http://www.coffee-koro.com/",
+        "map": "pb=!1m18!1m12!1m3!1d3279.5455161982054!2d137.68044611523254!3d34.71664148043042!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601ad8d506f74bd7%3A0x6dde54874f3e2da3!2z54-I55Cy6aaZ54iQ!5e0!3m2!1sja!2sjp!4v1589113703121!5m2!1sja!2sjp",
+        "items": {
+            "tonkaturice": {
+                "name": "”とんきい”さんのとんかつライス",
+                "price": 1200,
+                "description": "“農＋”さんのお野菜+コーヒー（エキストラバージンオリーブオイル付）",
+                "image_path": "tonkaturice.jpg"
+            },
+            "hanba-gu": {
+                "name": "”とんきい”さんのハンバーグ又はポーク",
+                "price": 1000,
+                "description": "“農＋”さんのお野菜＋コーヒー（エキストラバージンオリーブオイル付）",
+                "image_path": "hanba-gu.jpg"
+            },
+            "clubhousesando": {
+                "name": "クラブハウスサンド",
+                "price": 1400,
+                "description": "（玉子、ベーコン、野菜、チーズ、生ハム）＋“農＋のお野菜＋コーヒー（エキストラバージンオリーブオイル付）",
+                "image_path": "clubhousesando.jpg"
+            },
+            "pasuta": {
+                "name": "あらびきミートスパゲティ",
+                "price": 900,
+                "description": "“農＋”さんのお野菜＋コーヒー（エキストラバージンオリーブオイル付）",
+                "image_path": "pasuta.jpg"
+            },
+            "to-suto": {
+                "name": "竹炭パンの厚焼き玉子トースト",
+                "price": 1500,
+                "description": "豚やわらか煮込み胚芽パントースト＋コーヒー",
+                "image_path": "to-suto.jpg"
+            },
+            "souse-zi": {
+                "name": "自家製ソーセージ＋浜名湖うずら玉子",
+                "price": 850,
+                "description": "“農＋”さんのお野菜＋コーヒー（エキストラバージンオリーブオイル付）",
+                "image_path": "souse-zi.jpg"
+            }
+        },
+        "side_items": {
+            "curry": {
+                "name": "珈琲屋の人気カレー(冷凍)",
+                "price": 2000,
+                "description": "5～7人分"
+            },
+            "butani": {
+                "name": "豚のやわらか煮(冷凍)",
+                "price": 1000,
+                "description": "3人分"
+            },
+            "pan": {
+                "name": "人気のホイップバターと竹炭パン",
+                "price": 1000,
+                "description": "3人分"
+            },
+            "coffee": {
+                "name": "ひきたて本格珈琲のテイクアウト",
+                "price":400 ,
+                "description": ""
+            }
+        }
+    },
+    "morokawa": {
+        "name": "鳥焼もろ川",
+        "short_name": "鳥焼もろ川",
+        "key": "morokawa",
+        "description": "",
+        "zipcode": "430-0949",
+        "prefecture": "静岡県",
+        "city": "浜松市中区",
+        "address": "尾張町116-26",
+        "other_address": "",
+        "tel": "053-458-8800",
+        "email": "toriyaki@morokawa.com",
+        "reception_hours": "昼／11:00～13:30 夜／17:30～20:00",
+        "delivery_hours": "昼／11:30～14:00 夜／18:00～20:30",
+        "close": "日曜定休、祝祭日は夜のみ営業",
+        "payments":"現金、Paypay ※10,000円以上のご購入はクレジットカード可",
+        "url": "http://www.morokawa.com/",
+        "map": "pb=!1m18!1m12!1m3!1d3279.77689960962!2d137.72661101523244!3d34.7108066804319!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601ade63f180ec09%3A0xed0ac5a0e323d3!2z6bOl54S844KC44KN5bed!5e0!3m2!1sja!2sjp!4v1589114607031!5m2!1sja!2sjp",
+        "items": {
+            "yakitoribento": {
+                "name": "炭火焼鳥弁当（特製タレ付）",
+                "price": 1500,
+                "description": "期間限定で1200円！",
+                "image_path": "yakitoribento.jpg"
+            },
+            "kusi8hon": {
+                "name": "持ち帰り串 8本",
+                "price": 1200,
+                "description": "もも4本、つくね団子2本、きつね焼き1本、ぼんじり1本、特製タレ",
+                "image_path": "kusi8hon.jpg"
+            },
+            "kusi12hon": {
+                "name": "持ち帰り串 12本",
+                "price": 1800,
+                "description": "もも4本、つくね団子3本、きつね焼き1本、ぼんじり1本、手羽先1本、せせり1 本、うずら1本、特製タレ",
+                "image_path": "kusi12hon.jpg"
+            },
+            "karaage": {
+                "name": "錦爽鶏の唐揚げ 一折",
+                "price": 400,
+                "description": "もも2ヶ、手羽元1ヶ、手羽先1ヶ",
+                "image_path": "karaage.jpg"
+            },
+            "kamamesi": {
+                "name": "湯葉としらすの釜飯",
+                "price": 1000,
+                "description": "",
+                "image_path": "kamamesi.jpg"
+            }
+        },
+        "side_items": {
+            "torigomoku": {
+                "name": "鶏五目釜飯",
+                "price": 1200,
+                "description": ""
+            },
+            "rice": {
+                "name": "白飯",
+                "price": 200,
+                "description": ""
+            },
+            "sakedai": {
+                "name": "にごり酒（大）",
+                "price": 3200,
+                "description": "720ml"
+            },
+            "sakesyo": {
+                "name": "にごり酒（小）",
+                "price": 1500,
+                "description": "300ml"
+            },
+            "morokawasake": {
+                "name": "清酒 もろ川（小）",
+                "price": 1400,
+                "description": "300ml"
+            }
+        }
+    },
+    "chambor": {
+        "name": "シャンボール ザザスクエア店",
+        "short_name": "シャンボール",
+        "key": "chambor",
+        "description": "",
+        "zipcode": "430-0933",
+        "prefecture": "静岡県",
+        "city": "浜松市中区",
+        "address": "鍛冶町100-1",
+        "other_address": "ザザシティ1F",
+        "tel": "053-456-1600",
+        "email": "chambordzaza@gmail.com",
+        "reception_hours": "11:00～18:00",
+        "delivery_hours": "11:00～15:00",
+        "close": "ザザシティに準ずる",
+        "payments":"現金",
+        "url": "",
+        "map": "pb=!1m18!1m12!1m3!1d3279.997675113707!2d137.72812211523228!3d34.70523858043336!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601adf226508c0b5%3A0xebc17bbcc2430c84!2z44K344Oj44Oz44Oc44O844OrIOOCtuOCtuOCueOCr-OCqOOCouW6lw!5e0!3m2!1sja!2sjp!4v1589115450953!5m2!1sja!2sjp",
+        "items": {
+            "karubona-ra": {
+                "name": "パスタ・カルボナーラ",
+                "price": 780,
+                "description": "",
+                "image_path": "karubona-ra.jpg"
+            },
+            "borone-ze": {
+                "name": "パスタ・ボロネーゼ",
+                "price": 780,
+                "description": "",
+                "image_path": "borone-ze.jpg"
+            },
+            "taruteli-nu": {
+                "name": "サンド・タルティーヌ",
+                "price": 680,
+                "description": "",
+                "image_path": "taruteli-nu.jpg"
+            },
+            "hanba-gusando": {
+                "name": "サンド・ビーフハンバーグサンド",
+                "price": 680,
+                "description": "",
+                "image_path": "hanba-gusando.jpg"
+            }
+        },
+        "side_items": {    
+            "setdrink": {
+                "name": "セットドリンク",
+                "price": 200,
+                "description": "コーヒー、紅茶、ジンジャエール、コカコーラ、オレンジジュース、烏龍茶"
+            },
+            "suisuro-ruset": {
+                "name": "スイスロールセット",
+                "price": 100,
+                "description": ""
+            }
         }
     }
 }
